@@ -1,0 +1,37 @@
+body {
+  background-image: url("images/scarlet.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  bottom: 100%;
+}
+
+#buttonLogo {
+  margin: 400px;
+  animation-name: spinne;
+  animation-duration: 1500s;
+}
+
+#buttonLogo :hover {
+  animation-name: spinne;
+  animation-duration: 10s;
+}
+
+#audioController {
+  position: absolute;
+  bottom: 0px;
+  right: 20%;
+  left: 34%;
+  margin-left: 15px;
+  width: 30%;
+}
+
+@keyframes spinne {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(30000deg);
+  }
+}
